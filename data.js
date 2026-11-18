@@ -4,7 +4,7 @@ const sampleListing = [
     description: 
       "Private single room with attached bathroom, study table, wardrobe, and high-speed WiFi. Located near college campus with 24/7 security and mess facility.",
     image: 
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1555930112-0159bcdc3fe5?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 8500,
     location: "Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -17,7 +17,7 @@ const sampleListing = [
     description: 
       "Spacious twin-sharing room with bunk beds, individual lockers, and shared study area. Includes breakfast and dinner. Walking distance from main market.",
     image: 
-      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=60",
+      "https://plus.unsplash.com/premium_photo-1664302088394-15181999f92e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 5500,
     location: "Vijay Nagar",
     state: "Uttar Pradesh",
@@ -30,7 +30,7 @@ const sampleListing = [
     description: 
       "Affordable triple sharing room ideal for students. Includes bunk beds, common study hall, RO water, and laundry service. No hidden charges.",
     image: 
-      "https://images.unsplash.com/photo-1596272875729-ed2ff7d6d9c5?auto=format&fit=crop&w=800&q=60",
+      "https://plus.unsplash.com/premium_photo-1726841974853-1f5b442591cf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 3500,
     location: "Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -56,7 +56,7 @@ const sampleListing = [
     description:
       "Ideal for final year students who prefer cooking. Comes with a mini fridge, induction cooktop, attached bath, and independent entry. Boys only.",
     image:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+      "https://plus.unsplash.com/premium_photo-1727184019252-0910ed4b29bb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 9500,
     location: "Ghaziabad",
     state: "Uttar Pradesh",
@@ -69,7 +69,7 @@ const sampleListing = [
     description: 
       "Safe and secure girls hostel with biometric entry, warden on premises, and emergency medical support. Triple sharing with attached washroom.",
     image: 
-      "https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1741100966166-4b7c58a525f7?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 6000,
     location: "Saharanpur",
     state: "Uttar Pradesh",
@@ -95,7 +95,7 @@ const sampleListing = [
     description: 
       "Clean and ventilated double sharing room with two single beds, study tables, and shared balcony. Mess serves North Indian food. Near bus stand.",
     image: 
-      "https://images.unsplash.com/photo-1611048267451-e6ed903d4a38?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1716669373244-27d4ab4a48b8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 5000,
     location: "Meerut",
     state: "Uttar Pradesh",
@@ -121,7 +121,7 @@ const sampleListing = [
     description: 
       "Cheapest option for students on a tight budget. Dormitory style with 6 beds per room, personal locker, and shared bathroom. Common room with TV.",
     image:  
-      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1709805619372-40de3f158e83?q=80&w=895&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 2500,
     location: "Station Road, Meerut ",
     state: "Uttar Pradesh",
@@ -147,7 +147,7 @@ const sampleListing = [
     description: 
       "Single occupancy room with attached bath, AC, and study desk. Hostel has a gym, indoor games room, and 24-hour hot water. Mess serves veg/non-veg.",
     image: 
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1567766176311-a1a2d11a3e35?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 10000,
     location: "Meerut",
     state: "Uttar Pradesh",
@@ -160,7 +160,7 @@ const sampleListing = [
     description: 
       "Quiet PG suitable for working students. Triple sharing room with individual beds, lockers, and shared kitchen access. Electricity extra as per usage.",
     image: 
-      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1787994981540-f47d4f171a3c?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 4500,
     location: "Andheri East, Meerut ",
     state: "Uttar Pradesh",
@@ -173,7 +173,7 @@ const sampleListing = [
     description: 
       "Affordable four-sharing room for students. Bunk beds with personal storage, common study room, and RO water. Mess provides 3 meals. CCTV at entrance.",
     image:
-      "https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?auto=format&fit=crop&w=800&q=60",
+      "https://plus.unsplash.com/premium_photo-1726841974860-aaa58e03995c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 4000,
     location: "Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -186,7 +186,7 @@ const sampleListing = [
     description: 
       "Modern single room with AC, geyser, and attached bathroom. Building has separate floors for boys and girls. Near metro station and market.",
     image: 
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1721274501391-4101dd7907b3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 11000,
     location: "Rajouri Garden, Meerut",
     state: "Uttar Pradesh",
@@ -199,7 +199,7 @@ const sampleListing = [
     description: 
       "Purpose-built hostel for engineering students. Double sharing rooms with study tables, LAN port, and shared balcony. Canteen serves South Indian food.",
     image: 
-      "https://images.unsplash.com/photo-1611048267451-e6ed903d4a38?auto=format&fit=crop&w=800&q=60",
+      "https://plus.unsplash.com/premium_photo-1727183912673-b117e22a46af?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 5500,
     location: "Gandhi colony, Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -212,7 +212,7 @@ const sampleListing = [
     description: 
       "Independent PG for girls with a small attached kitchen in each room. Ideal for students who cook their own food. Includes WiFi and water. No curfew.",
     image: 
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1674162406360-df5ec5eb97e4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 9000,
     location: "Mandi Road, Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -225,7 +225,7 @@ const sampleListing = [
     description: 
       "Safe dormitory for girls with 4 beds per room, personal lockers, and shared washroom. Includes breakfast. Located near women's college.",
     image: 
-      "https://images.unsplash.com/photo-1520277739336-7bf67edfa768?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1767884162402-683fdd430046?q=80&w=899&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 3000,
     location: "Lakshmi Chowk, Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -238,7 +238,7 @@ const sampleListing = [
     description: 
       "Spacious single room with private balcony, AC, attached bath, and daily cleaning. Building has lift, parking, and power backup. Suitable for final year students.",
     image:  
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1688718063863-ab9b3cc51885?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 13000,
     location: "Almaspur, Muzaffarnagar",
     state: "Uttar Pradesh",
@@ -251,7 +251,7 @@ const sampleListing = [
     description: 
       "Two-bed room with study tables and wardrobe. Hostel has a library, common room, and mess. Walking distance from university main gate. Boys only.",
     image:  
-      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     price: 6000,
     location: "Bhopa Road, Muzaffarnagar",
     state: "Uttar Pradesh",
