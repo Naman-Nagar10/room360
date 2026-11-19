@@ -1,58 +1,92 @@
 <% layout('/layouts/boilerplate') -%>
-<body>
-    <h1>Create New Listing </h1>
 
-    <form action="/listings" method="POST">
-        <label for="title">Title: </label>
-        <input type="text" name="listing[title]" id="title" placeholder="Triple Sharing PG" required>
-        <br><br>
+<div class="row">
+    <div class="col-8 offset-2" >
+        <h1>Create New Listing </h1>
+        <br>
 
-        <label for="description">Description: </label>
-        <textarea name="listing[description]" id="description" required rows="3" cols="30" placeholder="Enter listing description"></textarea>
-        <br><br>
+        <form action="/listings" method="POST">
+            <!-- TITLE -->
+            <div class="mb-3">
+                <label for="title" class="form-label">Title: </label>
+                <input type="text" name="listing[title]" id="title" placeholder="Triple Sharing PG" class="form-control" required>
+            </div>
 
-        <label for="price">Price: </label>
-        <input type="number" name="listing[price]" id="price" required placeholder="₹ 100">
-        <br><br>
+            <!-- DESCRIPTION -->
+            <div class="mb-3">
+                <label for="description" class="form-label">Description: </label>
+                <textarea name="listing[description]" id="description" rows="3" cols="30" placeholder="Enter listing description" class="form-control" required></textarea>
+            </div>
 
-        <label for="location">Location: </label>
-        <input type="text" name="listing[location]" id="location" required placeholder="Mandi Road, Muzaffarnagar">
-        <br><br>
-
-        <label for="state">State: </label>
-        <input type="text" name="listing[state]" id="state" required placeholder="Uttar Pradesh">
-        <br><br>
-
-        <label for="type">Type: </label>
-        <select name="listing[type]" id="type" required>
-            <option value="">Select Type</option>
-            <option value="PG">PG</option>
-            <option value="Hostel">Hostel</option>
-            <option value="Room">Room</option>
-        </select>
-        <br><br>
-
-        <label for="sharing">Sharing: </label>
-        <select name="listing[sharing]" id="sharing" required>
-            <option value="">Select Sharing Option</option>
-            <option value="Single">Single</option>
-            <option value="Double">Double</option>
-            <option value="Triple">Triple</option>
-            <option value="four">Four</option>
-            <option value="MoreThenFive">More Than Five</option>
-        </select>
-        <br><br>
-
-        <label for="gender">Gender: </label>
-        <select name="listing[gender]" id="gender" required>
+            <!-- IMAGE -->
+            <div class="mb-3">
+                <label for="image" class="form-label">Image: </label>
+                <input type="text" name="listing[image]" id="image" placeholder="Imahe URL/Link" class="form-control" required>
+            </div>
             
-            <option value="">Select Gender</option>
-            <option value="Male">Boys</option>
-            <option value="Female">Girls</option>
-            <option value="Other">Boys/Girls</option>
-        </select>
-        <br><br>
+            
+            <!-- PRICE AND TYPE (SAME ROW) -->
+            <div class="row">
+                <div class="mb-3 col-md-4">
+                    <label for="price" class="form-label">Price: </label>
+                    <input type="number" name="listing[price]" id="price"  placeholder="₹ 100" class="form-control" required>
+                </div>
 
-        <button type="submit">Create Listing</button>
-    </form>
-</body>
+                <div class="mb-3 col-md-8">
+                    <label for="type" class="form-label">Type: </label>
+                    <select name="listing[type]" id="type" class="form-select" required>
+                        <option value="">Select Type</option>
+                        <option value="PG">PG</option>
+                        <option value="Hostel">Hostel</option>
+                        <option value="Room">Room</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- LOCATION -->
+            <div class="mb-3">
+                <label for="location" class="form-label">Location: </label>
+                <input type="text" name="listing[location]" id="location"  placeholder="Mandi Road, Muzaffarnagar" class="form-control" required>
+            </div>
+
+            <!-- STATE -->
+            <div class="mb-3">
+                <label for="state" class="form-label">State: </label>
+                <input type="text" name="listing[state]" id="state"  placeholder="Uttar Pradesh" class="form-control" required>
+            </div>
+
+            <!-- SHARING AND GENDER(SAME ROW) -->
+            <div class="row">
+                <div class="mb-3 col-md-7">
+                    <label for="sharing" class="form-label">Sharing: </label>
+                    <select name="listing[sharing]" id="sharing" class="form-select" required>
+                        <option value="">Select Sharing Option</option>
+                        <option value="Single">Single</option>
+                        <option value="Double">Double</option>
+                        <option value="Triple">Triple</option>
+                        <option value="four">Four</option>
+                        <option value="MoreThenFive">More Than Five</option>
+                    </select>
+                </div>
+
+                <div class="mb-3 col-md-5">
+                    <label for="gender"class="form-label">Gender: </label>
+                    <select name="listing[gender]" id="gender" class="form-select" required>
+                        
+                        <option value="">Select Gender</option>
+                        <option value="Male">Boys</option>
+                        <option value="Female">Girls</option>
+                        <option value="Other">Boys/Girls</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="mb-3">
+                <button class="btn btn-dark add-btn" type="submit">Create Listing</button>
+            </div>
+            <br>
+            
+        </form>
+    </div>
+</div>

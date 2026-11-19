@@ -72,6 +72,8 @@ app.get("/listings", async (req, res) => {
     }
 });
 
+
+// ADD NEW LISTING
 app.get("/listings/new", (req, res) => {
     res.render("./listings/new.ejs");
 });
