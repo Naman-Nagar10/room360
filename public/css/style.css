@@ -103,3 +103,26 @@ body {
     background-color: #fe424d !important;
     border: none !important;
 }
+
+
+/* SHOW_IMAGE */
+
+.show-img {
+    height: 30rem;
+}
+
+.show-details {
+    padding-left: 0 !important;
+}
+
+.show-btn {
+    display: flex;
+}
+
+.btn {
+    margin-bottom: 2rem;
+}
+
+dtl-btn {
+    background-color: #2E1D13 !important;
+}
